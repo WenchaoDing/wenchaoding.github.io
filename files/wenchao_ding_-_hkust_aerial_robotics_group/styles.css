@@ -265,8 +265,8 @@
 #u10 {
   border-width:0px;
   position:absolute;
-  left:475px;
-  top:259px;
+  left:474px;
+  top:254px;
   width:132px;
   height:25px;
   font-family:'TimesNewRomanPS-BoldMT', 'Times New Roman Bold', 'Times New Roman';
@@ -2179,8 +2179,8 @@
 #u60 {
   border-width:0px;
   position:absolute;
-  left:670px;
-  top:259px;
+  left:669px;
+  top:254px;
   width:82px;
   height:25px;
   font-family:'TimesNewRomanPS-BoldMT', 'Times New Roman Bold', 'Times New Roman';
@@ -2395,8 +2395,8 @@
 #u68 {
   border-width:0px;
   position:absolute;
-  left:602px;
-  top:259px;
+  left:601px;
+  top:254px;
   width:73px;
   height:25px;
   font-family:'TimesNewRomanPS-BoldMT', 'Times New Roman Bold', 'Times New Roman';
@@ -2722,8 +2722,8 @@
 #u78 {
   border-width:0px;
   position:absolute;
-  left:437px;
-  top:259px;
+  left:436px;
+  top:254px;
   width:43px;
   height:25px;
   font-family:'TimesNewRomanPS-BoldMT', 'Times New Roman Bold', 'Times New Roman';
@@ -2763,5 +2763,44 @@
   top:0px;
   width:0px;
   visibility:hidden;
+  word-wrap:break-word;
+}
+#u80_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:183px;
+  height:21px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'TimesNewRomanPSMT', 'Times New Roman';
+  font-weight:400;
+  font-style:normal;
+  font-size:18px;
+}
+#u80 {
+  border-width:0px;
+  position:absolute;
+  left:437px;
+  top:292px;
+  width:183px;
+  height:21px;
+  font-family:'TimesNewRomanPSMT', 'Times New Roman';
+  font-weight:400;
+  font-style:normal;
+  font-size:18px;
+}
+#u80_text {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:183px;
   word-wrap:break-word;
 }
