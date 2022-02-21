@@ -1,2 +1,5 @@
-# wenchaoding.github.io
-This is my personal website [https://wenchaoding.github.io/](https://wenchaoding.github.io/). Last update 04/08/2019.
+# Personal website
+
+Personal website for Wenchao Ding.
+
+Thanks to [psander](https://www.cse.ust.hk/~psander/) and [jonbarron](https://github.com/jonbarron/jonbarron_website).
