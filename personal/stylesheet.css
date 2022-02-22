@@ -81,29 +81,29 @@ tr,
 p,
 a {
   font-family: Georgia,'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px
+  font-size: 19px
 }
 
 strong {
   font-family: Georgia,'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 19px;
 }
 
 heading {
   font-family: Georgia,'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 papertitle {
   font-family: Georgia,'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 700;
   color:#08306b
 }
 
 name {
   font-family: Georgia,'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 35px;
 }
 
 .one {
