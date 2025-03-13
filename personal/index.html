@@ -40,7 +40,8 @@
                 <!--a href="data/CV/dingwenchao.pdf" target="_blank">CV</a-->
                 <a href="https://scholar.google.com.hk/citations?user=44f1ubYAAAAJ&hl=en" target="_blank">Google Scholar</a> &nbsp/&nbsp
                 <!--a href="https://cn.linkedin.com/in/wenchao-ding-39722b196" target="_blank">LinkedIn</a-->
-                <a href="https://www.youtube.com/channel/UCbwTNlg-YC9ZUp6dfDmVqJg?app=desktop" target="_blank">Youtube</a>
+                <a href="http://www.fudanmagiclab.com/" target="_blank">Group Website</a>
+                <!-- <a href="https://www.youtube.com/channel/UCbwTNlg-YC9ZUp6dfDmVqJg?app=desktop" target="_blank">Youtube</a> -->
                 <!--a href="https://github.com/WenchaoDing" target="_blank">Github</a-->
               </p>
             </td>
@@ -52,9 +53,9 @@
             <td style="padding:20px;width:100%;vertical-align:middle;line-height:20px">
               <heading>Research</heading>
               <p>
-                I'm interested in <strong>AI for robotics</strong>, especially the application in autonomous driving.
-                Much of my research is about <strong>prediction</strong>, <strong>decision-making</strong>, and <strong>motion planning</strong> for autonomous vehicles.
-                Unlike extensive literature which remains in simulation or datasets, many of my methods are deployed <strong>on real autonomous vehicles</strong> and tested in dense city traffic.
+                I'm interested in <strong>AI for robotics</strong>, especially the application in physicial AI (embodied AI/autonomous driving).
+                Much of my research is about learning general decision intelligence for physicial AI.
+                Unlike extensive literature which remains in simulation or datasets, many of my methods are deployed <strong>on real physicial robots</strong>.
               </p>
             </td>
           </tr>
@@ -69,7 +70,99 @@
         </tbody></table>
         <!-- Journal publications-->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <!--J202301-->
+          <tr onmouseout="j2024vings_stop()" onmouseover="j2024vings_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="newone">
+                <div class="newtwo" id='arxiv_vings'><video width=100% height=100% muted autoplay loop>
+                <source src="images/arxiv_vings/indoor.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/arxiv_vings/indoor.png' height="200">
+              </div>
+              <script type="text/javascript">
+                function j2024vings_start() {
+                  document.getElementById('arxiv_vings').style.opacity = "1";
+                }
+
+                function j2024vings_stop() {
+                  document.getElementById('arxiv_vings').style.opacity = "0";
+                }
+                j1_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://vings-mono.github.io/" target="_blank">
+                <papertitle>VINGS-Mono: Visual-Inertial Gaussian Splatting Monocular SLAM in Large Scenes</papertitle>
+              </a>
+              <br>
+              Ke Wu, 
+              Zicheng Zhang, 
+              Muer Tie, 
+              Ziqing Ai,
+              <strong>Wenchao Ding<sup>&#8270</sup></strong>
+              <br>
+              <em>Arxiv</em>, 2025
+              <br>
+              <!--a href="https://waymo.com/research/block-nerf/">project page</a-->
+              <a href="https://arxiv.org/abs/2501.08286" target="_blank">paper</a>/
+              <a href="https://vings-mono.github.io/" target="_blank">project page</a>
+              <p></p>
+              <p>Lightweight online implicit SLAM for super large scenes.</p>
+            </td>
+          </tr> 
+          <tr onmouseout="j2024safe_stop()" onmouseover="j2024safe_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/ral25_corridor/cover.png" alt="clean-usnob" width="320" height="230">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="_blank" target="_blank">
+                <papertitle>Drive in Corridors: Enhancing the Safety of End-to-end Autonomous Driving via Corridor Learning and Planning</papertitle>
+              </a>
+              <br>
+              Zhiwei Zhang,
+              Ruichen Yang,
+              Ke Wu,
+              Zijun Xu,
+              Jingchu Liu,
+              Lisen Mu,
+              Zhongxue Gan, 
+              <strong>Wenchao Ding<sup>&#8270</sup></strong>
+              <br>
+              <em>Arxiv</em>, 2025
+              <br>
+              <!--a href="https://waymo.com/research/block-nerf/">project page</a-->
+              <a href="_blank" target="_blank">paper</a>
+              <p></p>
+              <p>Learning safe end-to-end policy for physicial AI.</p>
+            </td>
+          </tr> 
+          <!--JHGS Mapping-->
+          <tr onmouseout="j2024hgs_stop()" onmouseover="j2024hgs_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/ral25_hgs/hgs_method.png" alt="clean-usnob" width="320" height="230">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://ieeexplore.ieee.org/document/10679910" target="_blank">
+                <papertitle>HGS-Mapping: Online Dense Mapping Using Hybrid Gaussian Representation in Urban Scenes</papertitle>
+              </a>
+              <br>
+              Ke Wu,
+              Kaizhao Zhang,
+              Zhiwei Zhang,
+              Muer Tie,
+              Shanshuai Yuan,
+              Jieru Zhao,
+              Zhongxue Gan, 
+              <strong>Wenchao Ding<sup>&#8270</sup></strong>
+              <br>
+              <em>IEEE Robotics and Automation Letters (RA-L)</em>, 2024
+              <br>
+              <!--a href="https://waymo.com/research/block-nerf/">project page</a-->
+              <a href="https://ieeexplore.ieee.org/document/10679910" target="_blank">paper</a>
+              <p></p>
+              <p>Online implicit dense mapping for large scenes.</p>
+            </td>
+          </tr>    
           <tr onmouseout="j202301_stop()" onmouseover="j202301_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/crowdsourced/crowdsourced.gif" alt="clean-usnob" width="320" height="230">
@@ -276,6 +369,84 @@
           <!--C202302-->
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/icra25_hgs_planner/cover.png" alt="clean-usnob" width="320" height="200">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2409.17624" target="_blank">
+                <papertitle>HGS-Planner: Hierarchical Planning Framework for Active Scene Reconstruction Using 3D Gaussian Splatting</papertitle>
+              </a>
+              <br>
+              Zijun Xu, 
+              Rui Jin, 
+              Ke Wu, 
+              Yi Zhao, 
+              Zhiwei Zhang, 
+              Jieru Zhao, 
+              Fei Gao
+              Zhongxue Gan,
+              <strong>Wenchao Ding</strong>
+              <br>
+              <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025
+              <br>
+              <a href="https://arxiv.org/abs/2409.17624" target="_blank">paper</a>
+              <p>Active perception and planning for indoor robot.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/eccv_o2v/semantic_search.gif" alt="clean-usnob" width="320" height="200">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://dl.acm.org/doi/10.1007/978-3-031-73021-4_19" target="_blank">
+                <papertitle>O2V-Mapping: Online Open-Vocabulary Mapping with Neural Implicit Representation</papertitle>
+              </a>
+              <br>
+              Muer Tie, 
+              Julong Wei, 
+              Ke Wu, 
+              Zhengjun Wang, 
+              Shanshuai Yuan,
+              Kaizhao Zhang,
+              Jie Jia, 
+              Jieru Zhao,
+              Zhongxue Gan, 
+              <strong>Wenchao Ding</strong>
+              <br>
+              <em><font color="red">European Conference on Computer Vision (ECCV)</font></em>, 2024
+              <br>
+              <a href="https://github.com/Fudan-MAGIC-Lab/O2Vmapping" target="_blank">code</a>
+              /
+              <a href="https://dl.acm.org/doi/10.1007/978-3-031-73021-4_19" target="_blank">paper</a>
+              <p>Integrating spatial temporal reasoning and implicit mapping.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/mm24_dpm2/cover.png" alt="clean-usnob" width="320" height="200">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://dl.acm.org/doi/10.1145/3664647.3681519" target="_blank">
+                <papertitle>DeepPointMap2: Accurate and Robust LiDAR-Visual SLAM with Neural Descriptors</papertitle>
+              </a>
+              <br>
+              Xiaze Zhang, 
+              Ziheng Ding, 
+              Qi Jing, 
+              Ying Cheng, 
+              <strong>Wenchao Ding<sup>&#8270</sup></strong>,
+              <strong>Rui Feng<sup>&#8270</sup></strong>
+              <br>
+              <em><font color="red">ACM International Conference on Multimedia (ACM MM)</font></em>, 2024
+              <br>
+              <a href="https://dl.acm.org/doi/10.1145/3664647.3681519" target="_blank">paper</a>
+              <p>Learning-based multimodal fusion and alignment.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/openannotate3d/cover.png" alt="clean-usnob" width="320" height="200">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -292,7 +463,7 @@
               <br>
               <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2024
               <br>
-              <a>Code comming soon</a>
+              <a href="https://github.com/Fudan-ProjectTitan/OpenAnnotate3D" target="_blank">code</a>
               /
               <a href="https://arxiv.org/abs/2310.13398" target="_blank">paper</a>
               <p>Open-vocabulary auto-Labeling system for multi-modal 3D data</p>
@@ -318,7 +489,7 @@
               <br>
               <em><font color="red">AAAI Conference on Artificial Intelligence (AAAI)</font></em>, 2024
               <br>
-              <a>Code comming soon</a>
+              <a href="https://github.com/ZhangXiaze/DeepPointMap" target="_blank">code</a>
               /
               <a href="https://arxiv.org/abs/2312.02684" target="_blank">paper</a>
               <p>Neural descriptors for next-gen SLAM.</p>
@@ -345,7 +516,7 @@
               <br>
               <a>Code comming soon</a>
               /
-              <a>Paper comming soon</a>
+              <a>Paper comming</a>
               <p>Neural implicit representation for next-gen SLAM.</p>
             </td>
           </tr>
@@ -492,7 +663,7 @@
             </td>
           </tr>
           <!--C5-->
-          <tr onmouseout="c5_stop()" onmouseover="c5_start()">
+          <!-- <tr onmouseout="c5_stop()" onmouseover="c5_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="newone">
                 <div class="newtwo" id='icra19_opt'><video width=100% height=100% muted autoplay loop>
@@ -527,9 +698,9 @@
               <a href="https://www.youtube.com/watch?v=r-gSUyFoK8Q" target="_blank">video</a>
               <p>Combining learning and model-based optimization in one trajectory prediction framework.</p>
             </td>
-          </tr>
+          </tr> -->
           <!--C6-->
-          <tr onmouseout="c6_stop()" onmouseover="c6_start()">
+          <!-- <tr onmouseout="c6_stop()" onmouseover="c6_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="newone">
                 <div class="newtwo" id='icra18_replanning'><video width=100% height=100% muted autoplay loop>
@@ -566,7 +737,7 @@
               <a href="https://www.youtube.com/watch?v=obwV1PFuPC0" target="_blank">video</a>
               <p>Fast kinodynamic replanning for quadrotors.</p>
             </td>
-          </tr>
+          </tr> -->
           <!--C7-->
           <!--tr onmouseout="c7_stop()" onmouseover="c7_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -747,7 +918,7 @@
             <td style="padding:0px">
               <br>
                 <p style="text-align:right;font-size:small;">
-                  Copyright@Wenchao Ding 2023. Template is modified from <a href="https://github.com/jonbarron/jonbarron_website">Jonbarron</a>.
+                  Copyright@Wenchao Ding 2024. Template is modified from <a href="https://github.com/jonbarron/jonbarron_website">Jonbarron</a>.
                 </p>
               <br>
             </td>
